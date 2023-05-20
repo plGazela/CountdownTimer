@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+    <head>
+        <!-- Project info -->
+        <title>⏳ Countdown Timer</title>
+        <meta name="description" content="A simple countdown timer in your browser.">
+        <meta name="author" content="Jakub Gezela">
+
+        <!-- Other settings -->
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#FFFFFF">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        
+        <!-- Fonts and styles -->
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    </head>
+    
+    <!-- Body -->
+    <body class="app">
+
+        <div class="app__timer">
+            <input class="app__timer__input" type="number" value="00">
+            <span class="app__timer__separator">:</span>
+            <input class="app__timer__input" type="number" value="00">
+            <span class="app__timer__separator">:</span>
+            <input class="app__timer__input" type="number" value="00">
+        </div>
+
+        <div class="app__control">
+            <button class="app__control__btn app__control__btn--start">Start</button>
+            <button class="app__control__btn app__control__btn--stop">Stop</button>
+        </div>
+        
+        <!-- Logic -->
+        <script src="assets/js/main.js" defer></script>
+    </body>
+</html>

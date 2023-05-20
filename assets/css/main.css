@@ -1,0 +1,56 @@
+/* Color palette */
+:root {
+    --background-main: #000000;
+}
+
+/* Default blocks */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Components */
+
+/* Body */
+.app {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    justify-items: center;
+    align-items: center;
+}
+
+/* Input */
+.app__timer__input {
+    background: transparent;
+    width: 150px;
+    border: none;
+    text-align: center;
+}
+.app__timer__input:focus {
+    outline: 0;
+}
+.app__timer__input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Input and separator */
+.app__timer__input, .app__timer__separator {
+    font-size: 5rem;
+}
+
+/* Button */
+.app__control__btn {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.app__control__btn--start:hover {
+    color: #B3C99C;
+}
+.app__control__btn--stop:hover {
+    color: #E97777;
+}
